@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Poppy CDN</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,600" type="text/css">
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://github.com/rackerlabs/cdn">Fork on GitHub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a>
+                    </li>
+                    <li><a href="#contributors">Contributors</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <img src="img/poppy.png" class="img-circle logo" />
+                        <h1>pop.py</h1>
+                        <h3>Accelerate your app using the points of presence from the best CDN providers</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li><a href="https://github.com/rackerlabs/cdn" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <div id="about" class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Breaking Vendor Lock In</h2>
+                    <h2></h2>
+                    <p class="lead">No more vendor lock in! Use our generic open-source API to configure 
+                        your app, using a variety of participating CDN providers. 
+                        <br/><br/>
+                        Switch vendors with a simple configuration change.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="provider-logo" src="img/fastly.png" alt="fastly.com">
+                    <img class="provider-logo" src="img/maxcdn.png" alt="maxcdn.com">
+                    <img class="provider-logo" src="img/awscloudfront.png" alt="aws cloudfront">
+                    <img class="provider-logo" src="img/akamai.gif" alt="akamai.com">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Introducing the pop.py REST API</h2>
+                    <p class="lead">Our API is <a href="https://github.com/rackerlabs/cdn">open sourced</a> and built with Python.  We are also built to play nice with <a href="https://www.openstack.org/">OpenStack</a> clouds, supporting <a href="https://wiki.openstack.org/wiki/Keystone">KeyStone Authentication</a>.</p>
+                    <p>For more details, see the full <a href="http://docs.cloudcdn.apiary.io">Poppy REST API Documentation</a>.
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/api.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Getting Started</h2>
+                    <p class="lead">
+                        The basics of pop.py is it is an open source python API that integrates the plethora of CDN providers out there. 
+                        <br/><br/>
+                        We are excited to bring to you this technology which unburdons you from developing against those differing CDN provider API's.  We do the translation for you. You just configure your application against our API.
+                        <br/><br/>
+                        Visit the <a href="https://github.com/rackerlabs/cdn">Installation docs</a> for more information about setting up pop.py.
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">CDN Providers are plug and play</h2>
+                    <p class="lead">
+                        As an operator, you can configure the providers you offer your customers.
+                        <br/><br/>
+                        As a provider, you can easily build your own provider extension to fit into our ecosystem. Just send us a <a href="https://github.com/rackerlabs/cdn">Pull Request on GitHub</a>.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Fork now and accelerate</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li><a href="https://github.com/rackerlabs/cdn" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    
+    <!-- /. contributors -->
+    <div id="contributors" class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Contributors</h2>
+                    <p class="lead">The pop.py REST API is developed by a team of awesome contributors.  Join our team at #poppycdn on irc.freenode.net and become a contributor =)
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-circle" src="https://avatars1.githubusercontent.com/u/1391763?s=60" />
+                    <img class="img-circle" src="https://avatars2.githubusercontent.com/u/1202903?s=60" />
+                    <img class="img-circle" src="https://avatars0.githubusercontent.com/u/2315404?s=60" />
+                    <img class="img-circle" src="https://avatars0.githubusercontent.com/u/3419085?s=60" />
+                    
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="copyright text-muted small">Copyright &copy; Rackspace 2014. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
