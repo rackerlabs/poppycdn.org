@@ -60,7 +60,7 @@
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <img src="static/img/poppy.png" class="img-circle logo" />
-                        <h1>pop.py</h1>
+                        <h1>poppy</h1>
                         <h3>Accelerate your app using the points of presence from the best CDN providers</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
@@ -95,7 +95,7 @@
                     <img class="provider-logo" src="static/img/fastly.png" alt="fastly.com">
                     <img class="provider-logo" src="static/img/maxcdn.png" alt="maxcdn.com">
                     <img class="provider-logo" src="static/img/awscloudfront.png" alt="aws cloudfront">
-                   <!-- <img class="provider-logo" src="static/img/akamai.gif" alt="akamai.com">-->
+                    <img class="provider-logo" src="static/img/akamai.gif" alt="akamai.com">
                 </div>
             </div>
 
@@ -112,7 +112,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Introducing the pop.py REST API</h2>
+                    <h2 class="section-heading">Introducing the Poppy REST API</h2>
                     <p class="lead">Our API is <a href="https://github.com/stackforge/poppy">open- sourced</a> and built with Python.  We are also built to play nice with <a href="https://www.openstack.org/">OpenStack</a> clouds, supporting <a href="https://wiki.openstack.org/wiki/Keystone">KeyStone Authentication</a>.</p>
                     <p>For more details, see the full <a href="http://docs.cloudcdn.apiary.io">Poppy REST API Documentation</a>.
                 </div>
@@ -136,11 +136,11 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Getting Started</h2>
                     <p class="lead">
-                        Pop.py aims to integrate the plethora of CDN providers with an open source Python-based API.
+                        Poppy aims to integrate the plethora of CDN providers with an open source Python-based API.
                         <br/><br/>
                         We are excited to bring to you this technology which unburdens you from developing against differing CDN provider API's.  We do the translation for you. Configure your application using our API.
                         <br/><br/>
-                        Visit the <a href="https://poppy.readthedocs.org">Developer docs</a> for more information about setting up pop.py.
+                        Visit the <a href="https://poppy.readthedocs.org">Developer docs</a> for more information about setting up Poppy.
                     </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -298,7 +298,6 @@
             repo = "https://api.github.com/repos/stackforge/poppy/contributors"
 
             $.getJSON(repo, function(data){
-                console.log(data);
                 $.each(data, function(i, item){
                     avatar = $( "<img class='img-circle' width='100px'>" );
                     avatar.attr( "src", item.avatar_url );
